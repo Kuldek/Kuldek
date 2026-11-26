@@ -16,6 +16,8 @@ The [full product portfolio](https://temiloluwa-product-studio.netlify.app/) inc
 
 **[Reply Review Lab](https://github.com/Kuldek/reply-review-lab)** is a small, offline tool for evaluating AI support replies. Read a fictional customer request and its policy, compare two possible answers, then record which one you would send and why. The sample replies are prewritten so every reviewer can evaluate the same cases.
 
+[Try Reply Review Lab in your browser](https://kuldek.github.io/reply-review-lab/)
+
 Suppose a client approves a script, then someone changes the last line. Is the revised script ready to record? The [script review example](https://github.com/Kuldek/Kuldek/blob/main/script-review.mjs) models that decision. Each approval belongs to a specific version. Editing the text creates a new version that needs its own review.
 
 This is a standalone example written with fictional records. Run it locally with Node.js 20 or later. The [tests](https://github.com/Kuldek/Kuldek/blob/main/script-review.test.mjs) exercise the review rules.
